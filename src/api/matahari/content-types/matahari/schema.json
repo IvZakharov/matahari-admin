@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "mataharis",
+  "info": {
+    "singularName": "matahari",
+    "pluralName": "mataharis",
+    "displayName": "Global",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "availablePlots": {
+      "type": "string",
+      "required": true,
+      "default": "39"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

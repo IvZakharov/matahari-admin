@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_matahari_rich_images",
+  "info": {
+    "displayName": "RichImage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

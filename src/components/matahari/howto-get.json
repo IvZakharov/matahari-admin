@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_matahari_howto_get_s",
+  "info": {
+    "displayName": "HowtoGet ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "howToGet": {
+      "type": "richtext",
+      "required": false
+    },
+    "flightTime": {
+      "type": "richtext"
+    }
+  }
+}

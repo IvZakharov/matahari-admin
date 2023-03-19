@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_matahari_plots",
+  "info": {
+    "displayName": "Plots",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "plots": {
+      "type": "component",
+      "repeatable": true,
+      "component": "matahari.pllot",
+      "required": true
+    },
+    "youTubeLink": {
+      "type": "string"
+    }
+  }
+}
