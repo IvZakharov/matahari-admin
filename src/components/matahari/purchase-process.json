@@ -14,7 +14,15 @@
       "repeatable": true,
       "component": "shared.title-description"
     },
-    "image": {
+    "imageMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageDesktop": {
       "allowedTypes": [
         "images"
       ],
