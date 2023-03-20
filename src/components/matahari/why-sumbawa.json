@@ -1,20 +1,29 @@
 {
   "collectionName": "components_matahari_why_sumbawas",
   "info": {
-    "displayName": "WhySumbawa"
+    "displayName": "WhySumbawa",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "image": {
+    "imageMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "imageDesktop": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
       "multiple": false,
-      "required": true
-    },
-    "description": {
-      "type": "richtext",
       "required": true
     }
   }
