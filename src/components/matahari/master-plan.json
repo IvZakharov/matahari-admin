@@ -1,20 +1,29 @@
 {
   "collectionName": "components_matahari_master_plans",
   "info": {
-    "displayName": "Master Plan"
+    "displayName": "Master Plan",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "image": {
+    "imageMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "imageDesktop": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
       "multiple": false,
       "required": true
-    },
-    "description": {
-      "type": "richtext"
     }
   }
 }
