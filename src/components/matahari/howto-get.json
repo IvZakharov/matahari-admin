@@ -6,13 +6,13 @@
   },
   "options": {},
   "attributes": {
-    "image": {
-      "allowedTypes": [
-        "images"
-      ],
+    "imageMobile": {
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "howToGet": {
       "type": "richtext",
@@ -20,6 +20,14 @@
     },
     "flightTime": {
       "type": "richtext"
+    },
+    "imageDesktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
