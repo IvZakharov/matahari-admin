@@ -10,13 +10,21 @@
       "type": "richtext",
       "required": true
     },
-    "image": {
+    "imageMobile": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ]
+    },
+    "imageDesktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
