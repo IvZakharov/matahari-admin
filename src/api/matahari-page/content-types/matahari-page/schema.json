@@ -125,7 +125,7 @@
       },
       "component": "matahari.infrastructure"
     },
-    "imageGallry": {
+    "imageGallery": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
