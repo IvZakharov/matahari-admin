@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_matahari_ctas",
+  "info": {
+    "displayName": "Cta"
+  },
+  "options": {},
+  "attributes": {
+    "main": {
+      "type": "richtext",
+      "required": true
+    },
+    "firstColumn": {
+      "type": "richtext",
+      "required": true
+    },
+    "secondColumn": {
+      "type": "richtext",
+      "required": false
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
