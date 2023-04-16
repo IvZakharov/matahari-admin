@@ -1,29 +1,39 @@
 {
   "collectionName": "components_matahari_ctas",
   "info": {
-    "displayName": "Cta"
+    "displayName": "Cta",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "main": {
-      "type": "richtext",
-      "required": true
-    },
-    "firstColumn": {
-      "type": "richtext",
-      "required": true
-    },
-    "secondColumn": {
-      "type": "richtext",
-      "required": false
-    },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cta": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "firstColumn": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "secondColumn": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }

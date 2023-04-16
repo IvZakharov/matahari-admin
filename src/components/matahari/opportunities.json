@@ -1,17 +1,18 @@
 {
   "collectionName": "components_matahari_opportunities",
   "info": {
-    "displayName": "opportunities"
+    "displayName": "opportunities",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "title": {
       "type": "string",
@@ -19,6 +20,13 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }
