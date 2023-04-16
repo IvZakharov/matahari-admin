@@ -6,10 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "description": {
-      "type": "richtext",
-      "required": true
-    },
     "imageMobile": {
       "type": "media",
       "multiple": false,

@@ -46,15 +46,6 @@
       "component": "matahari.hero-slide",
       "required": true
     },
-    "about": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext",
-      "required": true
-    },
     "whySumbawa": {
       "type": "component",
       "repeatable": true,
